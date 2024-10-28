@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
+        "projectName": "RMCAplication.Common",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
+        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
+        "projectName": "RMCAplication.Data.Models",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
+        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
+        "projectName": "RMCAplication.Data",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
+        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj"
+              },
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
+        "projectName": "RMCAplication.ViewModels",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.Web.csproj",
+        "projectName": "RMCAplication.Web",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.Web.csproj",
+        "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj"
+              },
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj"
+              },
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

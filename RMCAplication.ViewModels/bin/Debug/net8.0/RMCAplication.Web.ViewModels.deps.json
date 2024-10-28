@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "RMCAplication.Web.ViewModels/1.0.0": {
+        "runtime": {
+          "RMCAplication.Web.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RMCAplication.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,10 @@
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.csproj.AssemblyReference.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.AssemblyInfoInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.AssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.csproj.CoreCompileInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.RazorAssemblyInfo.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.RazorAssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication\obj\Debug\net8.0\RMCAplication.Web.sourcelink.json

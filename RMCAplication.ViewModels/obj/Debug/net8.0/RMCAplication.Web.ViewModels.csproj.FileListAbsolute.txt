@@ -1,0 +1,12 @@
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.Web.ViewModels.deps.json
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.Web.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.Web.ViewModels.pdb
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.AssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.sourcelink.json
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\refint\RMCAplication.Web.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.Web.ViewModels.pdb
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\ref\RMCAplication.Web.ViewModels.dll

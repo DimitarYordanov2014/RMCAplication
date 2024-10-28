@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMCAplication", "RMCAplication.csproj", "{3A826F40-856A-4FC2-8E07-2C6ED62F3538}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMCAplication.Data", "..\RMCAplication.Data\RMCAplication.Data.csproj", "{EB17AE1E-204E-460E-A5BF-3BF9690745E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMCAplication.Data.Models", "..\RMCAplication.Data.Models\RMCAplication.Data.Models.csproj", "{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMCAplication.Common", "..\RMCAplication.Common\RMCAplication.Common.csproj", "{4B89B159-DA78-46FF-ADDA-6BCA2C2CD166}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RMCAplication.ViewModels", "..\RMCAplication.ViewModels\RMCAplication.ViewModels.csproj", "{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1374BB96-4996-45FE-87FD-6D79F144FD7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{34EE1345-2AE3-4AAC-8EC4-E450A80BA441}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A826F40-856A-4FC2-8E07-2C6ED62F3538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A826F40-856A-4FC2-8E07-2C6ED62F3538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A826F40-856A-4FC2-8E07-2C6ED62F3538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A826F40-856A-4FC2-8E07-2C6ED62F3538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB17AE1E-204E-460E-A5BF-3BF9690745E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB17AE1E-204E-460E-A5BF-3BF9690745E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB17AE1E-204E-460E-A5BF-3BF9690745E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB17AE1E-204E-460E-A5BF-3BF9690745E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B89B159-DA78-46FF-ADDA-6BCA2C2CD166}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B89B159-DA78-46FF-ADDA-6BCA2C2CD166}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B89B159-DA78-46FF-ADDA-6BCA2C2CD166}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B89B159-DA78-46FF-ADDA-6BCA2C2CD166}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A826F40-856A-4FC2-8E07-2C6ED62F3538} = {1374BB96-4996-45FE-87FD-6D79F144FD7E}
+		{EB17AE1E-204E-460E-A5BF-3BF9690745E0} = {34EE1345-2AE3-4AAC-8EC4-E450A80BA441}
+		{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5} = {34EE1345-2AE3-4AAC-8EC4-E450A80BA441}
+		{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE} = {1374BB96-4996-45FE-87FD-6D79F144FD7E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CF6428E-8755-4491-8A0D-2F9A647FC6A2}
+	EndGlobalSection
+EndGlobal

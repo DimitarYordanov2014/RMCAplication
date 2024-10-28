@@ -1,0 +1,12 @@
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\bin\Debug\net8.0\RMCAplication.Data.Models.deps.json
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\bin\Debug\net8.0\RMCAplication.Data.Models.dll
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\bin\Debug\net8.0\RMCAplication.Data.Models.pdb
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.AssemblyInfoInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.AssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.csproj.CoreCompileInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.sourcelink.json
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.dll
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\refint\RMCAplication.Data.Models.dll
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.pdb
+C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Data.Models\obj\Debug\net8.0\ref\RMCAplication.Data.Models.dll
