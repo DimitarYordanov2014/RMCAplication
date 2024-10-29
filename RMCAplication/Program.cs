@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using RMCAplication.Data;
+using static System.Formats.Asn1.AsnWriter;
 
 namespace RMCAplication
 {
@@ -25,7 +27,7 @@ namespace RMCAplication
             })
                 .AddEntityFrameworkStores<RMCApplicationDbContext>();
             builder.Services.AddControllersWithViews();
-
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -52,7 +54,14 @@ namespace RMCAplication
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             app.MapRazorPages();
 
+                      
+
             app.Run();
+        }
+        static void ResetDatabase(RMCApplicationDbContext dbContext)
+        {
+            dbContext.Database.EnsureDeleted();
+            dbContext.Database.EnsureCreated();
         }
     }
 }

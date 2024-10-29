@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using RMCAplication.Data.Models;
+using RMCAplication.Data.Models.Extension;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +17,24 @@ namespace RMCAplication.Data
             : base(options)
         {
         }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<MechanizationConsumable>()
+                .HasKey(c => new { c.MechanizationId, c.ConsuableId });
+            modelBuilder.Entity<MechanizationSparePart>()
+                .HasKey(x => new { x.MechanizationId, x.SparePartId });
+
+            modelBuilder.Seed();
+
+            base.OnModelCreating(modelBuilder);
+        }
+        public DbSet<Person> Persons { get; set; }
+        public DbSet<Consumable> Consumables { get; set; }
+        public DbSet<Mechanization> Mechanizations { get; set; }
+        public DbSet<MechanizationConsumable> MechanizationConsumables { get; set; }
+        public DbSet<MechanizationSparePart> MechanizationSpareParts { get; set; }
+        public DbSet<SparePart> SpareParts { get; set; }
+        public DbSet<Tool> Tools { get; set; }
+        public DbSet<Warehouse> Warehouses { get; set; }
     }
 }

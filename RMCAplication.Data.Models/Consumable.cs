@@ -18,12 +18,14 @@ namespace RMCAplication.Data.Models
         [MaxLength(150)]
         public string? Description { get; set; }
         [Required]
+        public int WarehouseId { get; set; }
+        [Required]
+        [ForeignKey(nameof(WarehouseId))]
         public required Warehouse Warehouse { get; set; }
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
-        [Required]
-        public bool inStock { get; set; } = false;
+
         [Required]
         public int Count { get; set; }
         public ICollection<MechanizationConsumable> MechanizationConsumables { get; set; } = new List<MechanizationConsumable>();
