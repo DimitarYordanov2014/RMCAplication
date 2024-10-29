@@ -10,3 +10,15 @@ C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Common\obj\De
 C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Common\obj\Debug\net8.0\refint\RMCAplication.Common.dll
 C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.pdb
 C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.Common\obj\Debug\net8.0\ref\RMCAplication.Common.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\bin\Debug\net8.0\RMCAplication.Common.deps.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\bin\Debug\net8.0\RMCAplication.Common.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\bin\Debug\net8.0\RMCAplication.Common.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.AssemblyInfoInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.AssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.csproj.CoreCompileInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.sourcelink.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\refint\RMCAplication.Common.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\RMCAplication.Common.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Common\obj\Debug\net8.0\ref\RMCAplication.Common.dll

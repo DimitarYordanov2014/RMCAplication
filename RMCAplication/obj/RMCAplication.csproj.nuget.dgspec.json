@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.csproj": {}
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\RMCAplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
         "projectName": "RMCAplication.Common",
-        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
         "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\obj\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
         "projectName": "RMCAplication.Data.Models",
-        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
         "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\obj\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -126,14 +126,14 @@
         }
       }
     },
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\RMCAplication.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
         "projectName": "RMCAplication.Data",
-        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
         "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\obj\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -151,11 +151,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
-                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj"
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj"
               },
-              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
-                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj"
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj"
               }
             }
           }
@@ -175,6 +175,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -206,14 +210,14 @@
         }
       }
     },
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
         "projectName": "RMCAplication.ViewModels",
-        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -267,14 +271,14 @@
         }
       }
     },
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.csproj": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\RMCAplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.csproj",
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\RMCAplication.csproj",
         "projectName": "RMCAplication",
-        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\RMCAplication.csproj",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\RMCAplication.csproj",
         "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication\\obj\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -292,14 +296,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
-                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj"
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj"
               },
-              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj": {
-                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data\\RMCAplication.Data.csproj"
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\RMCAplication.Data.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\RMCAplication.Data.csproj"
               },
-              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj"
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj"
               }
             }
           }
@@ -335,11 +339,19 @@
               "target": "Package",
               "version": "[8.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.6, )"
             }
           },
           "imports": [

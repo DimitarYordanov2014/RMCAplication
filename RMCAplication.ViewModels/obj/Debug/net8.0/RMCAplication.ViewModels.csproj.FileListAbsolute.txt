@@ -10,3 +10,15 @@ C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\ob
 C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\refint\RMCAplication.ViewModels.dll
 C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.pdb
 C:\Users\Workstation\Documents\GitHub\RMCApplication\RMCAplication.ViewModels\obj\Debug\net8.0\ref\RMCAplication.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.ViewModels.deps.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.ViewModels.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.AssemblyInfoInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.AssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.csproj.CoreCompileInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.sourcelink.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\refint\RMCAplication.ViewModels.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\ref\RMCAplication.ViewModels.dll

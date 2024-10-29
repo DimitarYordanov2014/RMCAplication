@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
       "projectName": "RMCAplication.Data.Models",
-      "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
+      "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj",
       "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Data.Models\\obj\\",
+      "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",

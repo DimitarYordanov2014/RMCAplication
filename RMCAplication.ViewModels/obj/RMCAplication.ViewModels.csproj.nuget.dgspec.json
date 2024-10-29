@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {}
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
+    "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
         "projectName": "RMCAplication.ViewModels",
-        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
+        "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.ViewModels\\obj\\",
+        "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",

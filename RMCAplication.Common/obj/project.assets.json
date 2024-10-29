@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
+      "projectUniqueName": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
       "projectName": "RMCAplication.Common",
-      "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
+      "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\RMCAplication.Common.csproj",
       "packagesPath": "C:\\Users\\Workstation\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCApplication\\RMCAplication.Common\\obj\\",
+      "outputPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Workstation\\AppData\\Roaming\\NuGet\\NuGet.Config",
