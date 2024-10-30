@@ -253,14 +253,83 @@ namespace RMCAplication.Data.Migrations
                     b.Property<int>("WarehouseId")
                         .HasColumnType("int");
 
-                    b.Property<bool>("inStock")
-                        .HasColumnType("bit");
-
                     b.HasKey("Id");
 
                     b.HasIndex("WarehouseId");
 
-                    b.ToTable("Consumables");
+                    b.ToTable("Consumable");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Count = 5,
+                            Description = "Масло за малки превозни средства, Сменя се на 15 000 км.",
+                            IsDeleted = false,
+                            Name = "Масло 5/40 Мобил",
+                            Price = 2.70m,
+                            WarehouseId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Count = 3,
+                            Description = "За малки шевни машини. Сменя се когато изгори.",
+                            IsDeleted = false,
+                            Name = "Мотор за шевна машина",
+                            Price = 45.50m,
+                            WarehouseId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Count = 5,
+                            Description = "За малки шевни машини. Сменя се когато свърши.",
+                            IsDeleted = false,
+                            Name = "Макри за шевни машини",
+                            Price = 2.70m,
+                            WarehouseId = 2
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Count = 5,
+                            Description = "Става за всички видове мелници.",
+                            IsDeleted = false,
+                            Name = "Сито номе 4",
+                            Price = 320m,
+                            WarehouseId = 2
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Count = 15,
+                            Description = "Става за всички видове мелници.",
+                            IsDeleted = false,
+                            Name = "Сито номе 5",
+                            Price = 450m,
+                            WarehouseId = 2
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Count = 8,
+                            Description = "Става за всички видове мелници.",
+                            IsDeleted = false,
+                            Name = "Сито номе 3",
+                            Price = 325m,
+                            WarehouseId = 2
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Count = 5,
+                            Description = "Става за всички лампи на паркинга и двора.",
+                            IsDeleted = false,
+                            Name = "Лампа за улично осветление",
+                            Price = 32.40m,
+                            WarehouseId = 2
+                        });
                 });
 
             modelBuilder.Entity("RMCAplication.Data.Models.Mechanization", b =>
@@ -292,9 +361,14 @@ namespace RMCAplication.Data.Migrations
                     b.Property<int>("ConsuableId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("ConsumableId")
+                        .HasColumnType("int");
+
                     b.HasKey("MechanizationId", "ConsuableId");
 
                     b.HasIndex("ConsuableId");
+
+                    b.HasIndex("ConsumableId");
 
                     b.ToTable("MechanizationConsumables");
                 });
@@ -438,7 +512,37 @@ namespace RMCAplication.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Warehouses");
+                    b.ToTable("Warehouse");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Description = "Намира се в търговската част на фирмата. В него се съхраняват важните резервни части и повечето инструменти",
+                            IsDeleted = false,
+                            Name = "Централен склад"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Description = "Намира се в производсвото на фирмата. В него се съхраняват резервни части за призводството",
+                            IsDeleted = false,
+                            Name = "Производствен склад"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Description = "Намира се в двора на фирмата. В него се извършват повечето ремонтни дейност.",
+                            IsDeleted = false,
+                            Name = "Ремонтна стая"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Description = "Намира се в двора на фирмата. В него се съхраняват резервни части и автомобилни гуми.",
+                            IsDeleted = false,
+                            Name = "Авто-мото склад"
+                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -505,11 +609,15 @@ namespace RMCAplication.Data.Migrations
 
             modelBuilder.Entity("RMCAplication.Data.Models.MechanizationConsumable", b =>
                 {
-                    b.HasOne("RMCAplication.Data.Models.Consumable", "Consumable")
-                        .WithMany("MechanizationConsumables")
+                    b.HasOne("RMCAplication.Data.Models.Warehouse", "Consumable")
+                        .WithMany()
                         .HasForeignKey("ConsuableId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.HasOne("RMCAplication.Data.Models.Consumable", null)
+                        .WithMany("MechanizationConsumables")
+                        .HasForeignKey("ConsumableId");
 
                     b.HasOne("RMCAplication.Data.Models.Mechanization", "Mechanization")
                         .WithMany("MechanizationConsumables")

@@ -14,7 +14,7 @@ namespace RMCAplication.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Consumable> builder)
         {
-            string path = Path.Combine(AppContext.BaseDirectory, "Data", "Datasets", "consumable.json");
+            string path = Path.Combine(AppContext.BaseDirectory, "Datasets", "consumable.json");
             string data = File.ReadAllText(path);
             var consumable = JsonSerializer.Deserialize<List<Consumable>>(data);
 

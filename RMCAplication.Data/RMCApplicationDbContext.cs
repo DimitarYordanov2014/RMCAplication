@@ -29,7 +29,7 @@ namespace RMCAplication.Data
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<Person> Persons { get; set; }
-        public DbSet<Consumable> Consumables { get; set; }
+        public DbSet<Warehouse> Consumables { get; set; }
         public DbSet<Mechanization> Mechanizations { get; set; }
         public DbSet<MechanizationConsumable> MechanizationConsumables { get; set; }
         public DbSet<MechanizationSparePart> MechanizationSpareParts { get; set; }

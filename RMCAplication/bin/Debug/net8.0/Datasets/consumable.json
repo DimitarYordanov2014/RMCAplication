@@ -1,0 +1,65 @@
+[
+  {
+    "Id": 1,
+    "Name": "Масло 5/40 Мобил",
+    "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
+    "WarehouseId": 4,
+    "Price": 2.70,
+    "Count": 5,
+    "IsDeleted": false
+  },
+  {
+    "Id": 2,
+    "Name": "Мотор за шевна машина",
+    "Description": "За малки шевни машини. Сменя се когато изгори.",
+    "WarehouseId": 1,
+    "Price": 45.50,
+    "Count": 3,
+    "IsDeleted": false
+  },
+  {
+    "Id": 3,
+    "Name": "Макри за шевни машини",
+    "Description": "За малки шевни машини. Сменя се когато свърши.",
+    "WarehouseId": 1,
+    "Price": 2.70,
+    "Count": 5,
+    "IsDeleted": false
+  },
+  {
+    "Id": 4,
+    "Name": "Сито номе 4",
+    "Description": "Става за всички видове мелници.",
+    "WarehouseId": 2,
+    "Price": 320,
+    "Count": 5,
+    "IsDeleted": false
+  },
+  {
+    "Id": 5,
+    "Name": "Сито номе 5",
+    "Description": "Става за всички видове мелници.",
+    "WarehouseId": 2,
+    "Price": 450,
+    "Count": 15,
+    "IsDeleted": false
+  },
+  {
+    "Id": 6,
+    "Name": "Сито номе 3",
+    "Description": "Става за всички видове мелници.",
+    "WarehouseId": 2,
+    "Price": 325,
+    "Count": 8,
+    "IsDeleted": false
+  },
+  {
+    "Id": 7,
+    "Name": "Лампа за улично осветление",
+    "Description": "Става за всички лампи на паркинга и двора.",
+    "WarehouseId": 3,
+    "Price": 32.40,
+    "Count": 5,
+    "IsDeleted": false
+  }
+]

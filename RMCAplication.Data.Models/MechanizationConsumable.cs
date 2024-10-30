@@ -14,6 +14,6 @@ namespace RMCAplication.Data.Models
         public required Mechanization Mechanization { get; set; }
         public required int ConsuableId { get; set; }
         [ForeignKey(nameof(ConsuableId))]
-        public required Consumable Consumable { get; set; }
+        public required Warehouse Consumable { get; set; }
     }
 }

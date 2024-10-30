@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using RMCAplication.Data;
+using System;
 using static System.Formats.Asn1.AsnWriter;
 
 namespace RMCAplication
@@ -27,8 +28,19 @@ namespace RMCAplication
             })
                 .AddEntityFrameworkStores<RMCApplicationDbContext>();
             builder.Services.AddControllersWithViews();
-            
+
+                       
             var app = builder.Build();
+
+            //Reset database
+            using (var scope = app.Services.CreateScope())
+            {
+                var service = scope.ServiceProvider;
+                var context = service.GetService<RMCApplicationDbContext>();
+                ResetDatabase(context);
+            }
+
+
 
             // Configure the HTTP request pipeline.
             if (app.Environment.IsDevelopment())
