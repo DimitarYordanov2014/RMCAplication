@@ -1,0 +1,82 @@
+﻿[
+  {
+    "MechanizationId": 5,
+    "SparePartId": 7
+  },
+  {
+    "MechanizationId": 5,
+    "SparePartId": 8
+  },
+  {
+    "MechanizationId": 6,
+    "SparePartId": 7
+  },
+  {
+    "MechanizationId": 6,
+    "SparePartId": 8
+  },
+  {
+    "MechanizationId": 7,
+    "SparePartId": 1
+  },
+  {
+    "MechanizationId": 8,
+    "SparePartId": 2
+  },
+  {
+    "MechanizationId": 9,
+    "SparePartId": 2
+  },
+  {
+    "MechanizationId": 10,
+    "SparePartId": 2
+  },
+  {
+    "MechanizationId": 11,
+    "SparePartId": 4
+  },
+  {
+    "MechanizationId": 11,
+    "SparePartId": 7
+  },
+  {
+    "MechanizationId": 11,
+    "SparePartId": 8
+  },
+  {
+    "MechanizationId": 12,
+    "SparePartId": 4
+  },
+  {
+    "MechanizationId": 12,
+    "SparePartId": 7
+  },
+  {
+    "MechanizationId": 12,
+    "SparePartId": 8
+  },
+  {
+    "MechanizationId": 13,
+    "SparePartId": 4
+  },
+  {
+    "MechanizationId": 13,
+    "SparePartId": 7
+  },
+  {
+    "MechanizationId": 13,
+    "SparePartId": 8
+  },
+  {
+    "MechanizationId": 14,
+    "SparePartId": 4
+  },
+  {
+    "MechanizationId": 14,
+    "SparePartId": 7
+  },
+  {
+    "MechanizationId": 14,
+    "SparePartId": 8
+  }
+]

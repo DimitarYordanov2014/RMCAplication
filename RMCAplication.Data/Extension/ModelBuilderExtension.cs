@@ -17,10 +17,10 @@ namespace RMCAplication.Data.Models.Extension
             modelBuilder.ApplyConfiguration(new WarehouseConfiguration());
             modelBuilder.ApplyConfiguration(new ConsumableConfiguration());           
             modelBuilder.ApplyConfiguration(new PersonConfiguration());
-            //modelBuilder.ApplyConfiguration(new ScheduleConfiguration());
-            //modelBuilder.ApplyConfiguration(new UserConfiguration());
-            //modelBuilder.ApplyConfiguration(new SeatConfiguration());
-            //modelBuilder.ApplyConfiguration(new TariffConfiguration());
+            modelBuilder.ApplyConfiguration(new ToolConfiguration());
+            modelBuilder.ApplyConfiguration(new SparePartConfiguration());
+            //modelBuilder.ApplyConfiguration(new MechanisationConsumableConfiguration());
+            //modelBuilder.ApplyConfiguration(new MechanizationSpaerPartConfiguration());
             //modelBuilder.ApplyConfiguration(new TicketConfiguration());
         }
     }

@@ -18,7 +18,10 @@ namespace RMCAplication.Data.Models
         [MaxLength(150)]
         public string? Description { get; set; }
         [Required]
-        public required Warehouse Warehouse { get; set; }
+        public int WarehouseId { get; set; }
+        [Required]
+        [ForeignKey(nameof(WarehouseId))]
+        public Warehouse Warehouse { get; set; } = null!;
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }

@@ -460,3 +460,5 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Microsoft.Extensions.Configuration.UserSecrets.dll
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\warehouse.json
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\person.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\mechanizationConsumable.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\mechanizationSparePart.json

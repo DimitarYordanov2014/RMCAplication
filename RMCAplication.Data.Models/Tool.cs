@@ -19,14 +19,16 @@ namespace RMCAplication.Data.Models
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
-        [Required]
-        public string Location { get; set; } = null!;
+        public string? Location { get; set; }
         [Required]
         public int Count { get; set; }
         [MaxLength(150)]
         public string? Description { get; set; }
         [Required]
-        public required Warehouse Warehouse { get; set; }
+        public int WarehouseId { get; set; }
+        [Required]
+        [ForeignKey(nameof(WarehouseId))]
+        public Warehouse Warehouse { get; set; } = null!;
         [Required]
         public bool IsDeleted { get; set; } = false;
     }

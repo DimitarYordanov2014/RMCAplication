@@ -1,0 +1,54 @@
+﻿[
+  {
+    "MechanizationId": 1,
+    "ConsuableId": 5
+  },
+  {
+    "MechanizationId": 1,
+    "ConsuableId": 6
+  },
+  {
+    "MechanizationId": 2,
+    "ConsuableId": 5
+  },
+  {
+    "MechanizationId": 2,
+    "ConsuableId": 6
+  },
+  {
+    "MechanizationId": 7,
+    "ConsuableId": 1
+  },
+  {
+    "MechanizationId": 11,
+    "ConsuableId": 2
+  },
+  {
+    "MechanizationId": 11,
+    "ConsuableId": 3
+  },
+  {
+    "MechanizationId": 12,
+    "ConsuableId": 2
+  },
+  {
+    "MechanizationId": 12,
+    "ConsuableId": 3
+  },
+  {
+    "MechanizationId": 13,
+    "ConsuableId": 2
+  },
+  {
+    "MechanizationId": 13,
+    "ConsuableId": 3
+  },
+  {
+    "MechanizationId": 14,
+    "ConsuableId": 2
+  },
+  {
+    "MechanizationId": 14,
+    "ConsuableId": 3
+  }
+]

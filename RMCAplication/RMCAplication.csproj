@@ -10,9 +10,13 @@
   <ItemGroup>
     <Content Remove="Datasets\consumable.json" />
     <Content Remove="Datasets\mechanization.json" />
+    <Content Remove="Datasets\SparePart.json" />
+    <Content Remove="Datasets\tool.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Datasets\SparePart.json" />
+    <None Include="Datasets\tool.json" />
     <None Include="Datasets\mechanization.json" />
     <None Include="Datasets\consumable.json" />
   </ItemGroup>

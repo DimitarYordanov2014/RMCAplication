@@ -19,8 +19,9 @@ namespace RMCAplication.Data.Models
         public string? Description { get; set; }
         [Required]
         public int WarehouseId { get; set; }
+        [Required]
         [ForeignKey(nameof(WarehouseId))]
-        public Warehouse? Warehouse { get; set; }
+        public Warehouse Warehouse { get; set; }
         [Required]
         [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }
