@@ -19,9 +19,8 @@ namespace RMCAplication.Data.Models.Extension
             modelBuilder.ApplyConfiguration(new PersonConfiguration());
             modelBuilder.ApplyConfiguration(new ToolConfiguration());
             modelBuilder.ApplyConfiguration(new SparePartConfiguration());
-            //modelBuilder.ApplyConfiguration(new MechanisationConsumableConfiguration());
-            //modelBuilder.ApplyConfiguration(new MechanizationSpaerPartConfiguration());
-            //modelBuilder.ApplyConfiguration(new TicketConfiguration());
+            modelBuilder.ApplyConfiguration(new MechanisationConsumableConfiguration());
+            modelBuilder.ApplyConfiguration(new MechanizationSpaerPartConfiguration());
         }
     }
 }

@@ -20,7 +20,7 @@ namespace RMCAplication.Data
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<MechanizationConsumable>()
-                .HasKey(c => new { c.MechanizationId, c.ConsuableId });
+                .HasKey(c => new { c.MechanizationId, c.ConsumableId });
             modelBuilder.Entity<MechanizationSparePart>()
                 .HasKey(x => new { x.MechanizationId, x.SparePartId });
 

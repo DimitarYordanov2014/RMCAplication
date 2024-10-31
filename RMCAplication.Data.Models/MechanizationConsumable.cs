@@ -15,8 +15,8 @@ namespace RMCAplication.Data.Models
         [ForeignKey(nameof(MechanizationId))]
         public Mechanization Mechanization { get; set; } = null!;
         [Required]
-        public int ConsuableId { get; set; }
-        [ForeignKey(nameof(ConsuableId))]
-        public Warehouse Consumable { get; set; } = null!;
+        public int ConsumableId { get; set; }
+        [ForeignKey(nameof(ConsumableId))]
+        public Consumable Consumable { get; set; } = null!;
     }
 }

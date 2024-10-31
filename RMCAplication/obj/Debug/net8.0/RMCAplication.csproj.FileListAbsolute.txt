@@ -287,7 +287,6 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.AssemblyInfoInputs.cache
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.AssemblyInfo.cs
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.csproj.CoreCompileInputs.cache
-C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.RazorAssemblyInfo.cache
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.RazorAssemblyInfo.cs
@@ -462,3 +461,4 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\person.json
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\mechanizationConsumable.json
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\mechanizationSparePart.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.MvcApplicationPartsAssemblyInfo.cs
