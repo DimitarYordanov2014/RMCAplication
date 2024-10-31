@@ -1072,6 +1072,9 @@
         }
       },
       "RMCAplication.Data.Models/1.0.0": {
+        "dependencies": {
+          "RMCAplication.Common": "1.0.0"
+        },
         "runtime": {
           "RMCAplication.Data.Models.dll": {}
         }

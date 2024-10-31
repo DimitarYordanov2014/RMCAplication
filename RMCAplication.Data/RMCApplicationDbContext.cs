@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace RMCAplication.Data
 {
-    public class RMCApplicationDbContext : IdentityDbContext<IdentityUser>
+    public class RMCApplicationDbContext : IdentityDbContext
     {
         public RMCApplicationDbContext(DbContextOptions<RMCApplicationDbContext> options)
             : base(options)

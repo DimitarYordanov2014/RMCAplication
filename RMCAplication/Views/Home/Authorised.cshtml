@@ -1,0 +1,118 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="row">
+    <div class="col-sm-8 bg-light mt-3 shadow-lg">
+        <div class="container mt-3">
+            <h2>Предстоящи активности:</h2>
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Име</th>
+                        <th>Дата</th>
+                        <th>Активност</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>ДАФ РА5765ВН</td>
+                        <td>12.10.2024</td>
+                        <td>Смяна масло</td>
+                    </tr>
+                    <tr>
+                        <td>Mary</td>
+                        <td>12.10.2024</td>
+                        <td>Moe</td>
+                    </tr>
+                    <tr>
+                        <td>July</td>
+                        <td>12.10.2024</td>
+                        <td>Dooley</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                    <tr>
+                        <td>John</td>
+                        <td>12.10.2024</td>
+                        <td>Doe</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-sm-4">
+
+        <div class="col mt-3">
+            <div class="card shadow-lg bg-light">
+                <div class="card-body text-lg-center m-3">
+                    <h4 class="card-title">Склад</h4>
+                    <a asp-controller="Warehouse" asp-action="Index" class="btn btn-info mt-1 w-100 p-2 fw-bold">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-3">
+            <div class="card shadow-lg bg-light">
+                <div class="card-body text-lg-center m-3">
+                    <h4 class="card-title">Машини</h4>
+
+                    <a asp-controller="Mechanization" asp-action="Index" class="btn btn-info mt-1 w-100 p-2 fw-bold">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-3">
+            <div class="card shadow-lg bg-light">
+                <div class="card-body text-lg-center m-3">
+                    <h4 class="card-title">Техника / инструмент</h4>
+
+                    <a asp-action="Details" asp-route-id="" class="btn btn-info mt-1 w-100 p- fw-bold">Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="col mt-3">
+            <div class="card shadow-lg bg-light">
+                <div class="card-body text-lg-center m-3">
+                    <h4 class="card-title">Косумативи</h4>
+
+                    <a asp-controller="SparePart" asp-action="Index" class="btn btn-info mt-1 w-100 p-2 fw-bold">Details</a>
+                </div>
+            </div>
+            <div class="col mt-3">
+                <div class="card shadow-lg bg-light">
+                    <div class="card-body text-lg-center m-3">
+                        <h4 class="card-title">Персонал</h4>
+
+                        <a asp-controller="Personal" asp-action="Index" class="btn btn-info mt-1 w-100 p-2 fw-bold">Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

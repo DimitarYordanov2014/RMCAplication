@@ -22,3 +22,7 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\ob
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\obj\Debug\net8.0\refint\RMCAplication.Data.Models.dll
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.pdb
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\obj\Debug\net8.0\ref\RMCAplication.Data.Models.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\bin\Debug\net8.0\RMCAplication.Common.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\bin\Debug\net8.0\RMCAplication.Common.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplication.Data.Models.csproj.AssemblyReference.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data.Models\obj\Debug\net8.0\RMCAplic.D3FA6E00.Up2Date

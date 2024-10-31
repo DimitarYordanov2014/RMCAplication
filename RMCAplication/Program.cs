@@ -32,13 +32,13 @@ namespace RMCAplication
                        
             var app = builder.Build();
 
-            //Reset database
-            using (var scope = app.Services.CreateScope())
-            {
-                var service = scope.ServiceProvider;
-                var context = service.GetService<RMCApplicationDbContext>();
-                ResetDatabase(context);
-            }
+            //============== Reset database and seed data =============
+            //using (var scope = app.Services.CreateScope())
+            //{
+            //    var service = scope.ServiceProvider;
+            //    var context = service.GetService<RMCApplicationDbContext>();
+            //    ResetDatabase(context);
+            //}
 
 
 

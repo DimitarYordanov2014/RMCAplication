@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using RMCAplication.ViewModels;
 using System.Diagnostics;
@@ -15,10 +16,14 @@ namespace RMCAplication.Controllers
 
         public IActionResult Index()
         {
+            if (User?.Identity?.IsAuthenticated ?? false)
+            {
+                return RedirectToAction(nameof(Authorised));
+            }
             return View();
         }
-
-        public IActionResult Privacy()
+        [Authorize]
+        public IActionResult Authorised()
         {
             return View();
         }
