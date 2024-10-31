@@ -1,11 +1,6 @@
-﻿using RMCAplication.Data.Models;
-using System;
-using System.Collections.Generic;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using static RMCAplication.Common.ModelConstants;
 
 namespace RMCAplication.Data.Models
 {
@@ -14,7 +9,7 @@ namespace RMCAplication.Data.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        [MaxLength(50)]
+        [MaxLength(ToolNameMaximumLenght)]
         public required string Name { get; set; }
         [Required]
         [Column(TypeName = "decimal(18,2)")]
@@ -22,7 +17,7 @@ namespace RMCAplication.Data.Models
         public string? Location { get; set; }
         [Required]
         public int Count { get; set; }
-        [MaxLength(150)]
+        [MaxLength(DescriptionMaximumLenght)]
         public string? Description { get; set; }
         [Required]
         public int WarehouseId { get; set; }

@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static RMCAplication.Common.ModelConstants;
 
 namespace RMCAplication.Data.Models
 {
@@ -12,9 +13,9 @@ namespace RMCAplication.Data.Models
         [Key]
         public int Id { get; set; }
         [Required]
-        [MaxLength(50)]
+        [MaxLength(WarehouseNameMaximumLenght)]
         public required string Name { get; set; }
-        [MaxLength(150)]
+        [MaxLength(DescriptionMaximumLenght)]
         public string? Description { get; set; }
         [Required]
         public bool IsDeleted { get; set; } = false;
