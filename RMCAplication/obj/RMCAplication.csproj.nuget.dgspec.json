@@ -256,7 +256,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
+                "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

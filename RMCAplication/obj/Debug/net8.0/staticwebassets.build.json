@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "p6L4UvPok2wh5wOzNa+46rVmL0h79278o46+EifNMlY=",
+  "Hash": "oE4CX8JZZTJuoWpPDDVcq1zLkqataz3k7RIwxxqi0S8=",
   "Source": "RMCAplication",
   "BasePath": "_content/RMCAplication",
   "Mode": "Default",
@@ -1231,6 +1231,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\wwwroot\\images\\logo.png",
+      "SourceId": "RMCAplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\wwwroot\\",
+      "BasePath": "_content/RMCAplication",
+      "RelativePath": "images/logo.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\wwwroot\\js\\site.js",

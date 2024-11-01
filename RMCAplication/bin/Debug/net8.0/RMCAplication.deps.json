@@ -2263,6 +2263,9 @@
         }
       },
       "RMCAplication.ViewModels/1.0.0": {
+        "dependencies": {
+          "RMCAplication.Data.Models": "1.0.0"
+        },
         "runtime": {
           "RMCAplication.ViewModels.dll": {}
         }

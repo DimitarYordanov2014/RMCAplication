@@ -1,0 +1,28 @@
+﻿@using RMCAplication.Data.Models
+@model IEnumerable<Warehouse>
+<div class="container mt-3">
+    <h2>Wollcome to Warehouses</h2>
+    <p>If you click on Details, you can see staff stored in the warehouse. </p>
+    <table class="table table bg-light">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var warehouse in Model)
+            {
+                <tr>
+                    <td>@warehouse.Name</td>
+                    <td class="align-content-center">
+                        <a asp-action="Details" asp-route-id="@warehouse.Id" class="btn btn-info">Details</a>
+                        <a asp-action="Details" asp-route-id="@warehouse.Id" class="btn btn-info">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a asp-action="Create" class="btn btn-info mt-2 w-100 p-2 mt-3 fw-bold">Add New Warehouse</a>

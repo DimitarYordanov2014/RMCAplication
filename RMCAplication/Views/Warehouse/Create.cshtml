@@ -1,0 +1,21 @@
+﻿@using RMCApp.Web.ViewModels.ViewModels
+@model WarehouseViewModel
+
+<h2>Add a New Warehouse</h2>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label for="Title">Warehouse Name</label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div>
+        <label for="Description">Description</label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-info mt-5 w-100 p-2 fw-bold">Create Warehouse</button>
+    
+</form>
+
+<a asp-action="Index" class="btn btn-info mt-4 w-100 p-2 fw-bold">Back to Warehouse List</a>

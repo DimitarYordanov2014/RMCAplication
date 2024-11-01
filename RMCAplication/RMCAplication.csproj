@@ -19,6 +19,9 @@
     <None Include="Datasets\tool.json" />
     <None Include="Datasets\mechanization.json" />
     <None Include="Datasets\consumable.json" />
+    <None Include="Views\Warehouse\Create.cshtml" />
+    <None Include="Views\Warehouse\Details.cshtml" />
+    <None Include="Views\Warehouse\Index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>

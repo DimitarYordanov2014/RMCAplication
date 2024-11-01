@@ -1,0 +1,62 @@
+﻿@using RMCAplication.ViewModels;
+@using RMCApp.Web.ViewModels.ViewModels
+@model WarehouseViewModel
+
+<h2 class="mb-5 text-lg-center">Wearehouse: @Model.Name</h2>
+<p class="mb-6 text-lg-center">@Model.Description</p>
+<div class="row">
+  <div class="col">
+      <h3>Tools</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var tool in Model.Tools)
+                {
+                    <tr>
+                        <td>@tool.Name</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+  </div>
+  <div class="col">
+      <h3>Spare Parts</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var sapePart in Model.SpareParts)
+                {
+                    <tr>
+                        <td>@sapePart.Name</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+  </div>
+  <div class="col">
+      <h3>Consumable</h3>
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var consum in Model.Consumables)
+                {
+                    <tr>
+                        <td>@consum.Name</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+  </div>
+</div>

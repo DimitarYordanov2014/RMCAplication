@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "RMCAplication.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/RMCAplication.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RMCAplication.Common.dll": {}
+        }
+      },
+      "RMCAplication.Data.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "RMCAplication.Common": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RMCAplication.Data.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RMCAplication.Data.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RMCAplication.Common/1.0.0": {
+      "type": "project",
+      "path": "../RMCAplication.Common/RMCAplication.Common.csproj",
+      "msbuildProject": "../RMCAplication.Common/RMCAplication.Common.csproj"
+    },
+    "RMCAplication.Data.Models/1.0.0": {
+      "type": "project",
+      "path": "../RMCAplication.Data.Models/RMCAplication.Data.Models.csproj",
+      "msbuildProject": "../RMCAplication.Data.Models/RMCAplication.Data.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "RMCAplication.Data.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Workstation\\.nuget\\packages\\": {}
@@ -34,7 +71,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj": {
+              "projectPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
