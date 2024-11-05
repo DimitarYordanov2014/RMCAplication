@@ -3,20 +3,21 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RMCAplication.Data;
 using RMCAplication.Data.Models;
+using RMCAplication.Data.Repository.Interfaces;
+using RMCAplication.Services.Data.Interfaces;
 using RMCAplication.ViewModels;
-using RMCApp.Web.ViewModels.ViewModels;
 
 
 namespace RMCApp.Web.Controllers
 {
     [Authorize]
-    public class WarehouseController(RMCApplicationDbContext context) : Controller
+    public class WarehouseController(RMCApplicationDbContext context, IWarehouseService warehouseService) : Controller
     {
         [AllowAnonymous]
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            var warehouses = await context.Warehouses.ToListAsync();
+            var warehouses = warehouseService.GetAllWarehouses();
             return View(warehouses);
         }
         [HttpGet]

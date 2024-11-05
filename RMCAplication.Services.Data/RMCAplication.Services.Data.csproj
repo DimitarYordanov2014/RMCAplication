@@ -6,4 +6,11 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\RMCAplication.Data.Models\RMCAplication.Data.Models.csproj" />
+    <ProjectReference Include="..\RMCAplication.Data\RMCAplication.Data.csproj" />
+    <ProjectReference Include="..\RMCAplication.Services.Mapping\RMCAplication.Services.Mapping.csproj" />
+    <ProjectReference Include="..\RMCAplication.ViewModels\RMCAplication.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

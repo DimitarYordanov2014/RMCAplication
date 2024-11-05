@@ -461,4 +461,9 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\person.json
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\mechanizationConsumable.json
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\Datasets\mechanizationSparePart.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\RMCAplication.Services.Mapping.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\RMCAplication.Services.Mapping.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\RMCAplication.Services.Data.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\bin\Debug\net8.0\RMCAplication.Services.Data.pdb
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication\obj\Debug\net8.0\RMCAplication.MvcApplicationPartsAssemblyInfo.cs

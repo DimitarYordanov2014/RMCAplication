@@ -1,0 +1,13 @@
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.csproj.AssemblyReference.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.AssemblyInfoInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.AssemblyInfo.cs
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.csproj.CoreCompileInputs.cache
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.sourcelink.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\bin\Debug\net8.0\RMCAplication.Services.Mapping.deps.json
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\bin\Debug\net8.0\RMCAplication.Services.Mapping.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\bin\Debug\net8.0\RMCAplication.Services.Mapping.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\refint\RMCAplication.Services.Mapping.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\RMCAplication.Services.Mapping.pdb
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Services.Mapping\obj\Debug\net8.0\ref\RMCAplication.Services.Mapping.dll

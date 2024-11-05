@@ -4,6 +4,6 @@ namespace RMCAplication.Services.Mapping
 {
     public interface IHaveCustomMappings
     {
-        void CreateMapping(IProfileExpression configuration);
+        void CreateMappings(IProfileExpression configuration);
     }
 }

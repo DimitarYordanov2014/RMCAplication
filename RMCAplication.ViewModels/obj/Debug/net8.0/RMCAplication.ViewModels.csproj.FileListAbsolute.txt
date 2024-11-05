@@ -28,3 +28,5 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.Common.pdb
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplication.ViewModels.csproj.AssemblyReference.cache
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\obj\Debug\net8.0\RMCAplic.0E1B0234.Up2Date
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.Services.Mapping.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.ViewModels\bin\Debug\net8.0\RMCAplication.Services.Mapping.pdb

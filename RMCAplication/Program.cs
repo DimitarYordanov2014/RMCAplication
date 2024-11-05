@@ -4,6 +4,8 @@ using RMCAplication.Data;
 using RMCAplication.Data.Models;
 using RMCAplication.Data.Repository;
 using RMCAplication.Data.Repository.Interfaces;
+using RMCAplication.Services.Data;
+using RMCAplication.Services.Data.Interfaces;
 using RMCAplication.Services.Mapping;
 using RMCAplication.ViewModels;
 
@@ -32,6 +34,11 @@ namespace RMCAplication
             builder.Services.AddControllersWithViews();
 
             builder.Services.AddScoped<IRepository<Warehouse, int>, Repository<Warehouse, int>>();
+
+            builder.Services.AddScoped<IWarehouseService, WarehouseService>();
+
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
                        
             var app = builder.Build();
 

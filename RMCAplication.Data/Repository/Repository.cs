@@ -67,7 +67,7 @@ namespace RMCAplication.Data.Repository
             return await dbSet.ToArrayAsync();
         }
 
-        public IEnumerable<TType> GetAllAttached()
+        public IQueryable<TType> GetAllAttached()
         {
             return dbSet.AsQueryable();
         }
@@ -115,5 +115,7 @@ namespace RMCAplication.Data.Repository
                 return false;
             }
         }
+
+        
     }
 }
