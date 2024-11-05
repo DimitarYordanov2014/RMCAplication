@@ -36,3 +36,5 @@ C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data\obj\Debug
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data\obj\Debug\net8.0\RMCAplication.Data.pdb
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data\obj\Debug\net8.0\RMCAplication.Data.genruntimeconfig.cache
 C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data\obj\Debug\net8.0\ref\RMCAplication.Data.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data\bin\Debug\net8.0\RMCAplication.Services.Mapping.dll
+C:\Users\Workstation\Documents\GitHub\RMCAplication\RMCAplication.Data\bin\Debug\net8.0\RMCAplication.Services.Mapping.pdb

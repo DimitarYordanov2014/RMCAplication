@@ -3,6 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\Migrations\\20241105143000_SomeChangesInWarehouseModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -20,10 +27,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{E045BD2C-84C0-4F02-8E9E-9B130E2D8DA9}|..\\RMCAplication.Services.Mapping\\RMCAplication.Services.Mapping.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.services.mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,7 +36,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 16,
+          "SelectedChildIndex": 18,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,7 +84,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "20241105143000_SomeChangesInWarehouseModel.cs",
+              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\Migrations\\20241105143000_SomeChangesInWarehouseModel.cs",
+              "RelativeDocumentMoniker": "..\\RMCAplication.Data\\Migrations\\20241105143000_SomeChangesInWarehouseModel.cs",
+              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\Migrations\\20241105143000_SomeChangesInWarehouseModel.cs",
+              "RelativeToolTip": "..\\RMCAplication.Data\\Migrations\\20241105143000_SomeChangesInWarehouseModel.cs",
+              "ViewState": "AQIAAHcBAAAAAAAAAAAowI8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:30:01.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.Data\\Repository\\Repository.cs",
@@ -89,12 +105,11 @@
               "RelativeToolTip": "..\\RMCAplication.Data\\Repository\\Repository.cs",
               "ViewState": "AQIAABMAAAAAAAAAAAAgwB8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:50:45.413Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T13:50:45.413Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AutoMapperConfig.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Services.Mapping\\AutoMapperConfig.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.Services.Mapping\\AutoMapperConfig.cs",
@@ -102,12 +117,11 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Mapping\\AutoMapperConfig.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:49:32.204Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T13:49:32.204Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WarehouseViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\WarehouseViewModel.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.ViewModels\\WarehouseViewModel.cs",
@@ -115,12 +129,11 @@
               "RelativeToolTip": "..\\RMCAplication.ViewModels\\WarehouseViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:46:38.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T13:46:38.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "IWarehouseService.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Services.Data\\Interfaces\\IWarehouseService.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.Services.Data\\Interfaces\\IWarehouseService.cs",
@@ -128,46 +141,46 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Data\\Interfaces\\IWarehouseService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T12:26:42.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T12:26:42.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "WarehouseService.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Services.Data\\WarehouseService.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.Services.Data\\WarehouseService.cs",
               "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Services.Data\\WarehouseService.cs",
               "RelativeToolTip": "..\\RMCAplication.Services.Data\\WarehouseService.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBcAAAAIAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwCYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T11:38:48.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "WarehouseController.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\WarehouseController.cs",
               "RelativeDocumentMoniker": "Controllers\\WarehouseController.cs",
               "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\WarehouseController.cs",
               "RelativeToolTip": "Controllers\\WarehouseController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCUAAAARAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAcwDYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T11:23:08.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABQAAAAAAAAAAAAewCUAAABOAAAA",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAwDkAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T07:39:35.218Z"
+              "WhenOpened": "2024-10-31T07:39:35.218Z",
+              "EditorCaption": ""
             }
           ]
         }
