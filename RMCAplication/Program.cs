@@ -1,6 +1,8 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RMCAplication.Data;
+using RMCAplication.Services.Mapping;
+using RMCAplication.ViewModels;
 
 namespace RMCAplication
 {
@@ -29,13 +31,15 @@ namespace RMCAplication
                        
             var app = builder.Build();
 
+            AutoMapperConfig.RegisterMappings(typeof(ErrorViewModel).Assembly);
+
             //============== Reset database and seed data =============
-            using (var scope = app.Services.CreateScope())
-            {
-                var service = scope.ServiceProvider;
-                var context = service.GetService<RMCApplicationDbContext>();
-                ResetDatabase(context);
-            }
+            //using (var scope = app.Services.CreateScope())
+            //{
+            //    var service = scope.ServiceProvider;
+            //    var context = service.GetService<RMCApplicationDbContext>();
+            //    ResetDatabase(context);
+            //}
 
 
 
