@@ -85,8 +85,7 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Mapping\\AutoMapperConfig.cs",
               "ViewState": "AQIAAFsAAAAAAAAAAAAcwGEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:03:54.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:03:54.451Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Mapping\\QueryableMappingExtensions.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAEAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T07:01:29.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T07:01:29.693Z"
             },
             {
               "$type": "Document",
@@ -111,8 +109,7 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Mapping\\IHaveCustomMappings.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:55:06.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:55:06.664Z"
             },
             {
               "$type": "Document",
@@ -124,8 +121,7 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Mapping\\IMapTo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:54:24.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:54:24.732Z"
             },
             {
               "$type": "Document",
@@ -137,8 +133,7 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Mapping\\IMapFrom.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T06:53:34.785Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-05T06:53:34.785Z"
             },
             {
               "$type": "Document",
@@ -148,7 +143,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAewCEAAABPAAAA",
+              "ViewState": "AQIAACEAAAAAAAAAAAAewCwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T07:39:35.218Z",
               "EditorCaption": ""
