@@ -2269,7 +2269,8 @@
       },
       "RMCAplication.Data.Models/1.0.0": {
         "dependencies": {
-          "RMCAplication.Common": "1.0.0"
+          "RMCAplication.Common": "1.0.0",
+          "RMCAplication.Services.Mapping": "1.0.0"
         },
         "runtime": {
           "RMCAplication.Data.Models.dll": {}

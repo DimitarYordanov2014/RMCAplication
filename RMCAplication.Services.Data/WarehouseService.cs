@@ -15,9 +15,12 @@ namespace RMCAplication.Services.Data
             this.repository = repository;
         }
 
-        public Task CreateWarehouse(WarehouseViewModel model)
+        public async Task CreateWarehouse(WarehouseViewModel model)
         {
-            throw new NotImplementedException();
+            Warehouse warehouse = new Warehouse();
+            AutoMapperConfig.MapperInstance.Map(model, warehouse);
+
+            await repository.AddAsync(warehouse);
         }
 
         public IEnumerable<WarehouseViewModel> GetAllWarehouses()

@@ -32,17 +32,7 @@ namespace RMCApp.Web.Controllers
                 RedirectToAction("Index");
             }
 
-            var warehouse = new Warehouse
-            {
-                Name= model.Name,
-                Description = model.Description,
-                Tools = new HashSet<Tool>(),
-                Consumables = new HashSet<Consumable>(),
-                SpareParts = new HashSet<SparePart>()
-            };
-
-            await context.Warehouses.AddAsync(warehouse);
-            await context.SaveChangesAsync();
+            await warehouseService.CreateWarehouse(model);
             return RedirectToAction("Index");
         }
         [HttpGet]

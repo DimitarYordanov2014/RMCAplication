@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RMCAplication.Common\RMCAplication.Common.csproj" />
+    <ProjectReference Include="..\RMCAplication.Services.Mapping\RMCAplication.Services.Mapping.csproj" />
   </ItemGroup>
 
 </Project>

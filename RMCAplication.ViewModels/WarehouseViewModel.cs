@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace RMCAplication.ViewModels;
 
-public class WarehouseViewModel : IMapFrom<Warehouse>
+public class WarehouseViewModel : IMapFrom<Warehouse>, IMapTo<Warehouse>
 {
     public WarehouseViewModel()
     {

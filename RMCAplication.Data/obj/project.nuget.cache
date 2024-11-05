@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "3Pb1w+6GM7I=",
+  "dgSpecHash": "bBRpctUtTd0=",
   "success": true,
   "projectFilePath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\RMCAplication.Data.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Workstation\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\Workstation\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

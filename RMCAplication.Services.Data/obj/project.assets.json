@@ -1262,7 +1262,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "RMCAplication.Common": "1.0.0"
+          "RMCAplication.Common": "1.0.0",
+          "RMCAplication.Services.Mapping": "1.0.0"
         },
         "compile": {
           "bin/placeholder/RMCAplication.Data.Models.dll": {}
