@@ -67,6 +67,11 @@ namespace RMCAplication.Data.Repository
             return await dbSet.ToArrayAsync();
         }
 
+        public IEnumerable<TType> GetAllAttached()
+        {
+            return dbSet.AsQueryable();
+        }
+
         public TType GetById(TId id)
         {
             TType entity = dbSet.Find(id);

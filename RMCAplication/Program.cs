@@ -1,6 +1,9 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using RMCAplication.Data;
+using RMCAplication.Data.Models;
+using RMCAplication.Data.Repository;
+using RMCAplication.Data.Repository.Interfaces;
 using RMCAplication.Services.Mapping;
 using RMCAplication.ViewModels;
 
@@ -28,6 +31,7 @@ namespace RMCAplication
                 .AddEntityFrameworkStores<RMCApplicationDbContext>();
             builder.Services.AddControllersWithViews();
 
+            builder.Services.AddScoped<IRepository<Warehouse, int>, Repository<Warehouse, int>>();
                        
             var app = builder.Build();
 

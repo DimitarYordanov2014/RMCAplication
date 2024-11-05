@@ -11,6 +11,7 @@ namespace RMCAplication.Data.Repository.Interfaces
         TType GetById(TId id);
         Task <TType> GetByIdAsync(TId id);
         IEnumerable<TType> GetAll();
+        IEnumerable<TType> GetAllAttached();
         Task<IEnumerable<TType>> GetAllAsync();
         void Add(TType item);
         Task AddAsync(TType item);
