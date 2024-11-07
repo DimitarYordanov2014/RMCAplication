@@ -1,5 +1,5 @@
 ﻿using RMCAplication.Data.Models;
-using RMCAplication.ViewModels;
+using RMCAplication.ViewModels.WarehouseViewModels;
 
 namespace RMCAplication.Services.Data.Interfaces
 {

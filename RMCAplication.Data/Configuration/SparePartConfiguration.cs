@@ -14,7 +14,8 @@ namespace RMCAplication.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<SparePart> builder)
         {
-            string path = Path.Combine(AppContext.BaseDirectory, "Datasets", "SparePart.json");
+            var currentDirectory = Directory.GetCurrentDirectory();
+            string path = Path.Combine(currentDirectory, "Datasets", "SparePart.json");
             string data = File.ReadAllText(path);
             var consumable = JsonSerializer.Deserialize<List<SparePart>>(data);
 

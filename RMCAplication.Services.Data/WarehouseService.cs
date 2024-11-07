@@ -1,8 +1,8 @@
 ﻿using RMCAplication.Data.Models;
 using RMCAplication.Data.Repository.Interfaces;
 using RMCAplication.Services.Data.Interfaces;
-using RMCAplication.ViewModels;
 using RMCAplication.Services.Mapping;
+using RMCAplication.ViewModels.WarehouseViewModels;
 
 namespace RMCAplication.Services.Data
 {

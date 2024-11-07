@@ -2,13 +2,13 @@
 using RMCAplication.Services.Mapping;
 using System.ComponentModel.DataAnnotations;
 
-namespace RMCAplication.ViewModels;
+namespace RMCAplication.ViewModels.WarehouseViewModels;
 
 public class WarehouseViewModel : IMapFrom<Warehouse>, IMapTo<Warehouse>
 {
     public WarehouseViewModel()
     {
-        
+
     }
     [Key]
     public int Id { get; set; }

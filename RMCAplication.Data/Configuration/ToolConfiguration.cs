@@ -14,7 +14,8 @@ namespace RMCAplication.Data.Configuration
     {
         public void Configure(EntityTypeBuilder<Tool> builder)
         {
-            string path = Path.Combine(AppContext.BaseDirectory, "Datasets", "tool.json");
+            var currentDirectory = Directory.GetCurrentDirectory();
+            string path = Path.Combine(currentDirectory, "Datasets", "tool.json");
             string data = File.ReadAllText(path);
             var consumable = JsonSerializer.Deserialize<List<Tool>>(data);
 

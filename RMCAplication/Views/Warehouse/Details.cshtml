@@ -1,4 +1,4 @@
-﻿@using RMCAplication.ViewModels;
+﻿@using RMCAplication.ViewModels.WarehouseViewModels;
 @model WarehouseViewModel
 
 <h2 class="mb-5 text-lg-center">Wearehouse: @Model.Name</h2>
@@ -10,6 +10,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Count</th>
                 </tr>
             </thead>
             <tbody>
@@ -17,6 +18,7 @@
                 {
                     <tr>
                         <td>@tool.Name</td>
+                        <td>@tool.Count</td>
                     </tr>
                 }
             </tbody>
@@ -28,6 +30,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Count</th>
                 </tr>
             </thead>
             <tbody>
@@ -35,6 +38,7 @@
                 {
                     <tr>
                         <td>@sapePart.Name</td>
+                        <td>@sapePart.Count</td>
                     </tr>
                 }
             </tbody>
@@ -46,6 +50,7 @@
             <thead>
                 <tr>
                     <th>Name</th>
+                    <th>Count</th>
                 </tr>
             </thead>
             <tbody>
@@ -53,6 +58,7 @@
                 {
                     <tr>
                         <td>@consum.Name</td>
+                        <td>@consum.Count</td>
                     </tr>
                 }
             </tbody>

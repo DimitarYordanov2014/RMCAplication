@@ -3,7 +3,7 @@
     "Id": 1,
     "Name": "Масло 5/40 Мобил",
     "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-    "WarehouseId": 2,
+    "WarehouseId": 4,
     "Price": 2.70,
     "Count": 5,
     "IsDeleted": false
@@ -12,7 +12,7 @@
     "Id": 2,
     "Name": "Мотор за шевна машина",
     "Description": "За малки шевни машини. Сменя се когато изгори.",
-    "WarehouseId": 2,
+    "WarehouseId": 1,
     "Price": 45.50,
     "Count": 3,
     "IsDeleted": false
@@ -21,7 +21,7 @@
     "Id": 3,
     "Name": "Макри за шевни машини",
     "Description": "За малки шевни машини. Сменя се когато свърши.",
-    "WarehouseId": 2,
+    "WarehouseId": 1,
     "Price": 2.70,
     "Count": 5,
     "IsDeleted": false
@@ -57,117 +57,9 @@
     "Id": 7,
     "Name": "Лампа за улично осветление",
     "Description": "Става за всички лампи на паркинга и двора.",
-    "WarehouseId": 2,
+    "WarehouseId": 3,
     "Price": 32.40,
     "Count": 5,
     "IsDeleted": false
   }
-  //{
-  //  "Id": 8,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 9,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 10,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 11,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 12,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 13,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 14,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 15,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 16,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 17,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 18,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //},
-  //{
-  //  "Id": 19,
-  //  "Name": "Масло 5/40 Мобил",
-  //  "Description": "Масло за малки превозни средства, Сменя се на 15 000 км.",
-  //  "WarehouseId": 2,
-  //  "Price": 2.70,
-  //  "Count": 5,
-  //  "IsDeleted": false
-  //}
 ]
