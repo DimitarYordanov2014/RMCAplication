@@ -1,28 +1,48 @@
 ﻿@using RMCAplication.ViewModels.WarehouseViewModels
 @model IEnumerable<WarehouseViewModel>
-<div class="container mt-3">
-    <h2>Wollcome to Warehouses</h2>
-    <p>If you click on Details, you can see staff stored in the warehouse. </p>
-    <table class="table table bg-light">
-        <thead>
-            <tr>
-                <th>Name</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var warehouse in Model)
-            {
-                <tr>
-                    <td>@warehouse.Name</td>
-                    <td class="align-content-center">
-                        <a asp-action="Details" asp-route-id="@warehouse.Id" class="btn btn-info">Details</a>
-                        <a asp-action="Details" asp-route-id="@warehouse.Id" class="btn btn-info">Edit</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
+@{
+    ViewBag.Title = "Warehouses";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<div class="text-center row">
+    @foreach (var e in Model)
+    {
+        <div class="card col-3 h-100 shadow-lg m-1" style="width: 20rem; ">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU4p3tA-LI3zTjIV9HuQOPHIa8so3IJH9p0g&s" class="card-img-top img-fluid pt-2" style="height: 200px; object-fit: cover;" alt="Game Image">
+            <div class="card-body" style="height: calc(100% - 150px); overflow: auto;">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="title-wrapper" style="height: 6em; overflow: hidden;">
+                            <h4 class="card-title mt-1">@e.Name</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row gx-0">
+                @* @if (User?.Identity?.Name == e.Publisher)
+                {
+                    <div class="col-6 px-1">
+                        <a asp-controller="Game" asp-action="Edit" asp-route-id="@e.Id" class="btn btn-warning btn-sm mb-2 w-100 fw-bold rounded btn-dark-text">Edit</a>
+                    </div>
+                    <div class="col-6 px-1">
+                        <a asp-controller="Game" asp-action="Details" asp-route-id="@e.Id" class="btn btn-warning btn-sm mb-2 w-100 fw-bold rounded btn-dark-text">Details</a>
+                    </div>
+                }
+                else
+            { *@
+                    <div class="col-12 px-1">
+                        <a asp-controller="Warehouse" asp-action="Details" asp-route-id="@e.Id" class="btn btn-info btn-lg mb-2 w-100 fw-bold rounded btn-dark-text">Details</a>
+                    </div>
+               @*  } *@
+            </div>
+        </div>
+    }
 </div>
 
-<a asp-action="Create" class="btn btn-info mt-2 w-100 p-2 mt-3 fw-bold">Add New Warehouse</a>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

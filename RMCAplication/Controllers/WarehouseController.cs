@@ -39,10 +39,13 @@ namespace RMCApp.Web.Controllers
         public async Task<IActionResult> Details(int id)
         {
             var warehouse = await context.Warehouses
-                .Include(x => x.SpareParts)                
+                .Include(x => x.SpareParts)
                 .Include(x => x.Consumables)
                 .Include(x => x.Tools)
+                .Where(x => x.IsDeleted == false)
                 .FirstOrDefaultAsync(c => c.Id == id);
+
+
             if (warehouse == null)
             {
                 RedirectToAction("Index");

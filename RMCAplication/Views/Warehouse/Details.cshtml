@@ -3,6 +3,7 @@
 
 <h2 class="mb-5 text-lg-center">Wearehouse: @Model.Name</h2>
 <p class="mb-6 text-lg-center">@Model.Description</p>
+<a asp-controller="Warehouse" asp-action="Index" class="btn btn-info mb-5 w-100 p-2 fw-bold">Back to Warehouses</a>
 <div class="row">
   <div class="col">
       <h3>Tools</h3>
@@ -16,10 +17,14 @@
             <tbody>
                 @foreach (var tool in Model.Tools)
                 {
-                    <tr>
-                        <td>@tool.Name</td>
-                        <td>@tool.Count</td>
-                    </tr>
+                    @if (tool.Count > 0 || tool.IsDeleted == false)
+                    {
+                        <tr>
+                            <td>@tool.Name</td>
+                            <td>@tool.Count</td>
+                        </tr>
+                    }
+                    
                 }
             </tbody>
         </table>
@@ -36,10 +41,13 @@
             <tbody>
                 @foreach (var sapePart in Model.SpareParts)
                 {
-                    <tr>
-                        <td>@sapePart.Name</td>
-                        <td>@sapePart.Count</td>
-                    </tr>
+                    @if (sapePart.Count > 0 || sapePart.IsDeleted == false)
+                    {
+                        <tr>
+                            <td>@sapePart.Name</td>
+                            <td>@sapePart.Count</td>
+                        </tr>
+                    }
                 }
             </tbody>
         </table>
@@ -56,10 +64,13 @@
             <tbody>
                 @foreach (var consum in Model.Consumables)
                 {
-                    <tr>
-                        <td>@consum.Name</td>
-                        <td>@consum.Count</td>
-                    </tr>
+                    @if (consum.Count > 0 || consum.IsDeleted == false)
+                    {
+                        <tr>
+                            <td>@consum.Name</td>
+                            <td>@consum.Count</td>
+                        </tr>
+                    }
                 }
             </tbody>
         </table>
