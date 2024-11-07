@@ -5,6 +5,7 @@ using RMCAplication.Data;
 using RMCAplication.Data.Models;
 using RMCAplication.Data.Repository.Interfaces;
 using RMCAplication.Services.Data.Interfaces;
+using RMCAplication.Services.Mapping;
 using RMCAplication.ViewModels.WarehouseViewModels;
 
 
@@ -51,15 +52,8 @@ namespace RMCApp.Web.Controllers
                 RedirectToAction("Index");
             }
 
-            var newWarehouse = new WarehouseViewModel
-            {
-                Name = warehouse.Name,
-                Description = warehouse.Description,
-                Tools = warehouse.Tools,
-                SpareParts = warehouse.SpareParts,
-                Consumables = warehouse.Consumables
-            };
-
+            var newWarehouse = new WarehouseViewModel();
+            AutoMapperConfig.MapperInstance.Map(warehouse, newWarehouse);
             return View(newWarehouse);
         }
     }
