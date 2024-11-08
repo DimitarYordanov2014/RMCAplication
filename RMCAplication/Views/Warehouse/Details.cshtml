@@ -15,7 +15,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var tool in Model.Tools)
+                @foreach (var tool in Model.Tools.OrderBy(x => x.Name))
                 {
                     @if (tool.Count > 0 || tool.IsDeleted == false)
                     {
@@ -38,7 +38,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var sapePart in Model.SpareParts)
+                @foreach (var sapePart in Model.SpareParts.OrderBy(x => x.Name))
                 {
                     @if (sapePart.Count > 0 || sapePart.IsDeleted == false)
                     {
@@ -61,7 +61,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var consum in Model.Consumables)
+                @foreach (var consum in Model.Consumables.OrderBy(x => x.Name))
                 {
                     @if (consum.Count > 0 || consum.IsDeleted == false)
                     {

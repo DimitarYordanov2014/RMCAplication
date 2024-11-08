@@ -1,4 +1,6 @@
-﻿using RMCAplication.Data.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using RMCAplication.Data;
+using RMCAplication.Data.Models;
 using RMCAplication.Data.Repository.Interfaces;
 using RMCAplication.Services.Data.Interfaces;
 using RMCAplication.Services.Mapping;
@@ -6,14 +8,9 @@ using RMCAplication.ViewModels.WarehouseViewModels;
 
 namespace RMCAplication.Services.Data
 {
-    public class WarehouseService : IWarehouseService
+    public class WarehouseService(RMCApplicationDbContext context, IRepository<Warehouse, int> repository) : IWarehouseService
     {
-        private IRepository<Warehouse, int> repository;
-
-        public WarehouseService(IRepository<Warehouse, int> repository)
-        {
-            this.repository = repository;
-        }
+        
 
         public async Task CreateWarehouse(WarehouseViewModel model)
         {
@@ -33,9 +30,19 @@ namespace RMCAplication.Services.Data
             return warehouses;
         }
 
-        public Task<WarehouseViewModel> GetWarehouseDetailsById(int id)
+        public async Task<WarehouseViewModel> GetWarehouseDetailsById(int id)
         {
-            throw new NotImplementedException();
+            var warehouse = await context.Warehouses
+                .Include(x => x.SpareParts)
+                .Include(x => x.Consumables)
+                .Include(x => x.Tools)
+                .Where(x => x.IsDeleted == false)
+                .FirstOrDefaultAsync(c => c.Id == id);          
+
+            var newWarehouse = new WarehouseViewModel();
+            AutoMapperConfig.MapperInstance.Map(warehouse, newWarehouse);
+
+            return newWarehouse;
         }
     }
 }

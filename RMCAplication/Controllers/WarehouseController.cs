@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using RMCAplication.Data;
-using RMCAplication.Data.Models;
-using RMCAplication.Data.Repository.Interfaces;
 using RMCAplication.Services.Data.Interfaces;
 using RMCAplication.Services.Mapping;
 using RMCAplication.ViewModels.WarehouseViewModels;
@@ -39,22 +37,14 @@ namespace RMCApp.Web.Controllers
         [HttpGet]
         public async Task<IActionResult> Details(int id)
         {
-            var warehouse = await context.Warehouses
-                .Include(x => x.SpareParts)
-                .Include(x => x.Consumables)
-                .Include(x => x.Tools)
-                .Where(x => x.IsDeleted == false)
-                .FirstOrDefaultAsync(c => c.Id == id);
-
+            var warehouse = await warehouseService.GetWarehouseDetailsById(id);
 
             if (warehouse == null)
             {
                 RedirectToAction("Index");
             }
-
-            var newWarehouse = new WarehouseViewModel();
-            AutoMapperConfig.MapperInstance.Map(warehouse, newWarehouse);
-            return View(newWarehouse);
+          
+            return View(warehouse);
         }
     }
 }
