@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RMCAplication.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f311a31ed5c05411d647bee7d4d4962e145f8331")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cd8ca70822cc5a1aa00700f6ec4080d40ad65ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("RMCAplication.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RMCAplication.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

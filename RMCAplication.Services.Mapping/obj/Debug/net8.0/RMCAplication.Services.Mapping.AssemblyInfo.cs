@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RMCAplication.Services.Mapping")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42e6ebeb32440dccbcdc29bee31e66ba25603059")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7cd8ca70822cc5a1aa00700f6ec4080d40ad65ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("RMCAplication.Services.Mapping")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RMCAplication.Services.Mapping")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

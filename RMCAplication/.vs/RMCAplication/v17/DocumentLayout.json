@@ -3,23 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\views\\home\\authorised.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:views\\home\\authorised.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\views\\sparepart\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:views\\sparepart\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\controllers\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:controllers\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\controllers\\sparepartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:controllers\\sparepartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\views\\sparepart\\sparepartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:views\\sparepart\\sparepartindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AB469FA-5619-4691-BDFF-1C3A5D606230}|..\\RMCAplication.Services.Data\\RMCAplication.Services.Data.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.services.data\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\views\\warehouse\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:views\\warehouse\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}|..\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.viewmodels\\sparepartviewmodels\\sparepartcreateviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECA0C08A-6462-4948-95E0-3A7A3B05FCDE}|..\\RMCAplication.ViewModels\\RMCAplication.ViewModels.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.viewmodels\\warehouseviewmodels\\warehouseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -29,14 +21,21 @@
       "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:controllers\\warehousecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4B89B159-DA78-46FF-ADDA-6BCA2C2CD166}|..\\RMCAplication.Common\\RMCAplication.Common.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.common\\modelconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AB469FA-5619-4691-BDFF-1C3A5D606230}|..\\RMCAplication.Services.Data\\RMCAplication.Services.Data.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.services.data\\warehouseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\views\\warehouse\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:views\\warehouse\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EB17AE1E-204E-460E-A5BF-3BF9690745E0}|..\\RMCAplication.Data\\RMCAplication.Data.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3A826F40-856A-4FC2-8E07-2C6ED62F3538}|RMCAplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1F832EEA-2665-45F6-AAD1-AC54F1ABADB5}|..\\RMCAplication.Data.Models\\RMCAplication.Data.Models.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.data.models\\sparepart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E045BD2C-84C0-4F02-8E9E-9B130E2D8DA9}|..\\RMCAplication.Services.Mapping\\RMCAplication.Services.Mapping.csproj|c:\\users\\workstation\\documents\\github\\rmcaplication\\rmcaplication.services.mapping\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -49,7 +48,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -97,33 +96,71 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WarehouseViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
+              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
+              "RelativeToolTip": "..\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T11:08:29.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\SparePart\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\SparePart\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\SparePart\\Create.cshtml",
+              "RelativeToolTip": "Views\\SparePart\\Create.cshtml",
+              "ViewState": "AQIAABMAAAAAAAAAAAAwwCcAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-08T09:43:53.914Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ModelConstants.cs",
+              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\ModelConstants.cs",
+              "RelativeDocumentMoniker": "..\\RMCAplication.Common\\ModelConstants.cs",
+              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Common\\ModelConstants.cs",
+              "RelativeToolTip": "..\\RMCAplication.Common\\ModelConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:34:19.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SparePartCreateViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\SparePartViewModels\\SparePartCreateViewModel.cs",
+              "RelativeDocumentMoniker": "..\\RMCAplication.ViewModels\\SparePartViewModels\\SparePartCreateViewModel.cs",
+              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\SparePartViewModels\\SparePartCreateViewModel.cs",
+              "RelativeToolTip": "..\\RMCAplication.ViewModels\\SparePartViewModels\\SparePartCreateViewModel.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T09:32:10.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SparePart.cs",
-              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\SparePart.cs",
-              "RelativeDocumentMoniker": "Controllers\\SparePart.cs",
-              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\SparePart.cs",
-              "RelativeToolTip": "Controllers\\SparePart.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Title": "SparePartController.cs",
+              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\SparePartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SparePartController.cs",
+              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\SparePartController.cs",
+              "RelativeToolTip": "Controllers\\SparePartController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAqwEkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-08T09:16:18.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SparePartIndex.cshtml",
-              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\SparePart\\SparePartIndex.cshtml",
-              "RelativeDocumentMoniker": "Views\\SparePart\\SparePartIndex.cshtml",
-              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\SparePart\\SparePartIndex.cshtml",
-              "RelativeToolTip": "Views\\SparePart\\SparePartIndex.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T09:15:42.985Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\Warehouse\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Warehouse\\Details.cshtml",
@@ -131,12 +168,11 @@
               "RelativeToolTip": "Views\\Warehouse\\Details.cshtml",
               "ViewState": "AQIAACoAAAAAAAAAAAAAADoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-08T08:54:41.543Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T08:54:41.543Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "WarehouseService.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Services.Data\\WarehouseService.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.Services.Data\\WarehouseService.cs",
@@ -144,37 +180,11 @@
               "RelativeToolTip": "..\\RMCAplication.Services.Data\\WarehouseService.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAowC4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T08:22:20.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-08T08:22:20.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Authorised.cshtml",
-              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\Home\\Authorised.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Authorised.cshtml",
-              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Views\\Home\\Authorised.cshtml",
-              "RelativeToolTip": "Views\\Home\\Authorised.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFgAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-07T11:36:48.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "SparePart.cs",
-              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\SparePart.cs",
-              "RelativeDocumentMoniker": "..\\RMCAplication.Data.Models\\SparePart.cs",
-              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data.Models\\SparePart.cs",
-              "RelativeToolTip": "..\\RMCAplication.Data.Models\\SparePart.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-07T09:08:29.673Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.Data\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "..\\RMCAplication.Data\\Repository\\Repository.cs",
@@ -198,33 +208,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WarehouseViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
-              "RelativeDocumentMoniker": "..\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
-              "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
-              "RelativeToolTip": "..\\RMCAplication.ViewModels\\WarehouseViewModels\\WarehouseViewModel.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAABTAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-05T13:46:38.295Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "WarehouseController.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\WarehouseController.cs",
               "RelativeDocumentMoniker": "Controllers\\WarehouseController.cs",
               "ToolTip": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Controllers\\WarehouseController.cs",
               "RelativeToolTip": "Controllers\\WarehouseController.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAWwDIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-05T11:23:08.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Workstation\\Documents\\GitHub\\RMCAplication\\RMCAplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

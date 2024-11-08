@@ -1,0 +1,46 @@
+﻿@using RMCAplication.ViewModels.SparePartViewModels
+@model SparePartCreateViewModel
+
+
+<h2>Add a New SarePart</h2>
+
+<form asp-action="Add" method="post">
+    <div class="mb-3">
+        <label asp-for="@Model.Name" class="form-label-add-edit">Name</label>
+        <input asp-for="@Model.Name" class="form-control" aria-required="true" />
+        <span asp-validation-for="@Model.Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="@Model.Description" class="form-label-add-edit">Description</label>
+        <textarea asp-for="@Model.Description" class="form-control" aria-required="true" rows="5"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="@Model.WarehouseId" class="form-label-add-edit">Choose warehouse</label>
+        <select asp-for="@Model.WarehouseId" class="form-control" aria-required="true">
+            @foreach (var type in Model.warehouses)
+            {
+                <option value="@type.Id">@type.Name</option>
+            }
+        </select>
+        <span asp-validation-for="@Model.WarehouseId" class="text-danger"></span>
+    </div>
+    <h2>Select Mechanisation:</h2>
+    <div class="form-group">
+        @for (var i = 0; i < Model.MechanisationChecked.Count; i++)
+        {
+            <div class="form-check-inline m-3">
+
+                <input type="hidden" asp-for="@Model.MechanisationChecked[i].Id" />
+                <input type="hidden" asp-for="@Model.MechanisationChecked[i].Name" />
+                <input type="checkbox" asp-for="@Model.MechanisationChecked[i].IsSelected" class="form-check-input" />
+                <label class="form-check-label">@Model.MechanisationChecked[i].Name</label>
+            </div>
+        }
+    </div>
+    <div class="mb-3">
+        <input class="btn btn-info mb-2 w-100 p-3 fw-bold" type="submit" value="Add" />
+    </div>
+</form>
+
+<a asp-action="SparePartIndex" class="btn btn-info mb-2 w-100 p-3 fw-bold">Back to Item List</a>
