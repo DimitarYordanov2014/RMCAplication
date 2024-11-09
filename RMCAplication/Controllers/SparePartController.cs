@@ -44,33 +44,34 @@ namespace RMCAplication.Controllers
 
         public async Task<IActionResult> Add(SparePartCreateViewModel model)
         {
-
-            SparePart? sparePart = await context.SpareParts
-               .Where(s => s.Id == model.Id)
-               .FirstOrDefaultAsync();
-            if (sparePart == null)
+            var sp = new SparePart()
             {
-                return View(nameof(SparePartIndex));
-            }
+                Name = model.Name,
+                Description = model.Description,
+                WarehouseId = model.WarehouseId,
+                Count = model.Count
+            };
+            await context.SpareParts.AddAsync(sp);
+            await context.SaveChangesAsync();
 
-            ICollection<MechanizationSparePart> entitiesToAdd = new List<MechanizationSparePart>();
+            var result = await context.SpareParts.FirstOrDefaultAsync(x => x.Name == sp.Name && sp.IsDeleted == false && x.Description == sp.Description);
             foreach (MechnisationCheckBoxItem cinemaInputModel in model.MechanisationChecked)
             {
-                            
-                MechanizationSparePart? mechanizationSparePart = await context.MechanizationSpareParts
-                    .FirstOrDefaultAsync(cm => cm.MechanizationId == cinemaInputModel.Id &&
-                                                     cm.SparePartId == sparePart.Id);
-
-                entitiesToAdd.Add(new MechanizationSparePart()
+                if (cinemaInputModel.IsSelected == true)
                 {
-                    MechanizationId = mechanizationSparePart.MechanizationId,
-                    SparePartId = mechanizationSparePart.SparePartId
-                });
+                    MechanizationSparePart? mechanizationSparePart = new MechanizationSparePart()
+                    {
+                        SparePartId = result.Id,
+                        MechanizationId = cinemaInputModel.Id
+                    };
+
+                    await context.MechanizationSpareParts.AddAsync(mechanizationSparePart);
+                    await context.SaveChangesAsync();
+                }
+                
             }
 
-            await context.AddAsync(entitiesToAdd.ToArray());
-
-            return View(nameof(SparePartIndex));
+            return RedirectToAction("SparePartIndex");
         }
     }
 }
